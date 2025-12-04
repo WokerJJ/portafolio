@@ -261,16 +261,31 @@ body {
 }
 
 
-/* Lista de contactos */
-.contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.contact-form .form-label {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--color-text-main);
 }
 
-.contact-list li + li {
-    margin-top: var(--spacing-sm);
+.contact-form .form-control {
+    background-color: rgba(20, 22, 39, 0.95);
+    border-radius: var(--radius-soft);
+    border: 1px solid var(--color-border-subtle);
+    color: var(--color-text-main);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
 }
+
+.contact-form .form-control::placeholder {
+    color: var(--color-text-muted);
+}
+
+.contact-form .form-control:focus {
+    background-color: var(--color-bg-console);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 0.15rem rgba(148, 0, 211, 0.4);
+}
+
 
 /* Ajustes responsive mínimos */
 @media (max-width: 768px) {
