@@ -256,33 +256,77 @@
 
     <!-- Contacto -->
     <section id="contacto" class="section">
-        <h2 class="section-title">Contacto</h2>
+        <h2 class="section-title">contacto()</h2>
+
         <div class="row g-4">
             <div class="col-md-6">
-                <form>
+                <form class="contact-form" action="https://formspree.io/f/mldqlrzy" method="POST">
                     <div class="mb-3">
-                        <label class="form-label">Nombre</label>
-                        <input type="text" class="form-control" />
+                        <label for="name" class="form-label">Nombre</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                name="name"
+                                placeholder="Escribe tu nombre"
+                                required
+                        />
                     </div>
+
                     <div class="mb-3">
-                        <label class="form-label">Email</label>
-                        <input type="email" class="form-control" />
+                        <label for="email" class="form-label">Email</label>
+                        <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                name="email"
+                                placeholder="tu.correo@example.com"
+                                required
+                        />
                     </div>
+
                     <div class="mb-3">
-                        <label class="form-label">Mensaje</label>
-                        <textarea class="form-control" rows="4"></textarea>
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea
+                                class="form-control"
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Cuéntame sobre tu proyecto o vacante..."
+                                required
+                        ></textarea>
                     </div>
+
                     <button type="submit" class="btn btn-primary">
-                        Enviar
+                        send_message()
                     </button>
                 </form>
             </div>
+
             <div class="col-md-6">
-                <ul class="contact-list">
-                    <li>GitHub: <a href="https://github.com/WokerJJ">WokerJJ</a></li>
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/jhonhucker/">jhonhucker</a></li>
-                    <li>Email: jchalararamirez@gmail.com</li>
-                </ul>
+                <div class="console-card">
+                    <div class="console-card__header">
+                        <span class="console-dot console-dot--red"></span>
+                        <span class="console-dot console-dot--yellow"></span>
+                        <span class="console-dot console-dot--green"></span>
+                        <span class="ms-2">contact.log</span>
+                    </div>
+                    <div class="console-card__body">
+                        <p class="console-line console-comment">
+                            # Puedes escribirme para oportunidades laborales, proyectos freelance
+                            o colaboraciones técnicas.
+                        </p>
+                        <p class="console-line">
+                            <span class="console-prompt">$</span> email =&gt; "jchalararamirez@gmail.com"
+                        </p>
+                        <p class="console-line">
+                            <span class="console-prompt">$</span> github =&gt; "https://github.com/WokerJJ"
+                        </p>
+                        <p class="console-line">
+                            <span class="console-prompt">$</span> linkedin =&gt; "https://www.linkedin.com/in/jhonhucker"
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
