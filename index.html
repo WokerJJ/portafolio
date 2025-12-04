@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <title>Portafolio – Jhon H.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Variables y estilos -->
+    <link rel="stylesheet" href="css/var.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark nav-console">
+    <div class="container-fluid">
+        <a class="navbar-brand nav-brand-console" href="#inicio">&gt;_ dev-flora</a>
+
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-menu-console">
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mi">/sobre-mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">/skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">/proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">/contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="page-wrapper">
+    <!-- Hero -->
+    <section id="inicio" class="section hero">
+        <div class="hero-photo">
+            <img src="img/profile.png" alt="Foto de perfil" />
+        </div>
+        <div>
+            <h1 class="hero-main-title">Jhon H. Chalarca – Backend Dev</h1>
+            <p class="hero-subtitle">
+                Construyendo APIs sólidas, sistemas monitorizables y soluciones backend para problemas reales.
+            </p>
+            <p class="hero-subtitle hero-subtitle-small">
+                Java · Javascript · Node.js · Docker · Bases de datos · PHP · Laravel
+            </p>
+            <div class="hero-actions d-flex gap-2 mt-3">
+                <a href="#proyectos" class="btn btn-primary">.run("ver_proyectos")</a>
+                <a
+                        href="assets/cv.pdf"
+                        class="btn btn-primary"
+                        download="CV_JhonHChalarca.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                >
+                    .download("CV")
+                </a>
+                <a href="#contacto" class="btn btn-outline-light">.ping("contacto")</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+        <h2 class="section-title">sobre_mi()</h2>
+
+        <div class="console-card">
+            <div class="console-card__header">
+                <span class="ms-2">sobre-mi.sh</span>
+            </div>
+
+            <div class="console-card__body">
+                <p class="console-comment">
+                    # Desarrollador backend
+                </p>
+
+                <p><span class="console-prompt">$</span> stack --main<br />
+                    =&gt; ["Java", "JavaScript", "APIs REST", "Node.js", "SQL", "Docker"]
+                </p>
+
+                <p><span class="console-prompt">$</span> focus --areas<br />
+                    =&gt; ["Backend", "APIs", "Bases de datos", "Ciberseguridad"]
+                </p>
+
+                <p><span class="console-prompt">$</span> about --me<br />
+                    =&gt; "Técnico en programación y soporte de sistemas; curioso,
+                    disciplinado y orientado a entender cómo funcionan las cosas."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+        <h2 class="section-title">skills()</h2>
+
+        <div class="row g-3 skill-grid">
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/java.png" alt="Java" class="img-fluid skill-icon" />
+                <p class="mt-2">Java</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/js.png" alt="JavaScript" class="img-fluid skill-icon" />
+                <p class="mt-2">JavaScript</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/nodejs.png" alt="Node.js" class="img-fluid skill-icon" />
+                <p class="mt-2">Node.js</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/docker.png" alt="Docker" class="img-fluid skill-icon" />
+                <p class="mt-2">Docker</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/mysql.png" alt="mysql" class="img-fluid skill-icon" />
+                <p class="mt-2">MySQL</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/postgresql.png" alt="posgrestsql" class="img-fluid skill-icon" />
+                <p class="mt-2">PosgrestSQL</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/php.png" alt="php" class="img-fluid skill-icon" />
+                <p class="mt-2">PHP</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/laravel.png" alt="Laravel" class="img-fluid skill-icon" />
+                <p class="mt-2">Laravel</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/vue.png" alt="Vue" class="img-fluid skill-icon" />
+                <p class="mt-2">Vue</p>
+            </div>
+            <div class="col-6 col-md-3 text-center">
+                <img src="img/github.png" alt="GitHub" class="img-fluid skill-icon" />
+                <p class="mt-2">GitHub</p>
+            </div>
+            <!-- repites para más tecnologías -->
+        </div>
+    </section>
+
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+        <h2 class="section-title">proyetos()</h2>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <article class="card project-card h-100">
+                    <img
+                            src="img/minnetflix.png"
+                            class="card-img-top project-card__img"
+                            alt="Flora Code"
+                    />
+
+                    <div class="card-body project-card__body">
+                        <h3 class="project-card__title">MinNetflix</h3>
+
+                        <div class="mb-3">
+                            <span class="badge project-badge">JavaScript</span>
+                            <span class="badge project-badge">Html</span>
+                            <span class="badge project-badge">Bootstrap</span>
+                        </div>
+
+                        <p class="project-card__text">
+                            Proyecto web que simula un sistema de recomendación tipo Netflix usando estructuras de
+                            datos avanzadas (lista enlazada, grafo y árbol AVL), con interfaz responsiva en Bootstrap
+                            y lógica modular en JavaScript orientada a pruebas y demostración académica.
+                        </p>
+
+                        <div class="project-card__links">
+                            <a href="https://github.com/WokerJJ/miniNetflix" class="project-link">&gt; Ver Código</a>
+                            <a href="https://wokerjj.github.io/miniNetflix/" class="project-link ms-3">&gt; Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card project-card h-100">
+                    <img
+                            src="img/silvacode.png"
+                            class="card-img-top project-card__img"
+                            alt="Flora Code"
+                    />
+
+                    <div class="card-body project-card__body">
+                        <h3 class="project-card__title">SilvaCode</h3>
+
+                        <div class="mb-3">
+                            <span class="badge project-badge">Node.js</span>
+                            <span class="badge project-badge">Express</span>
+                            <span class="badge project-badge">PostgreSQL</span>
+                        </div>
+
+                        <p class="project-card__text">
+                            Una API RESTful para la identificación de plantas a través de datos
+                            y sensores IoT, pensada para cultivo en casa y automatización.
+                        </p>
+
+                        <div class="project-card__links">
+                            <a href="https://github.com/WokerJJ/silvacode-v1" class="project-link">&gt; Ver Código</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card project-card h-100">
+                    <img
+                            src="img/meteoweb.png"
+                            class="card-img-top project-card__img"
+                            alt="Flora Code"
+                    />
+
+                    <div class="card-body project-card__body">
+                        <h3 class="project-card__title">MeteoWeb</h3>
+
+                        <div class="mb-3">
+                            <span class="badge project-badge">Node.js</span>
+                            <span class="badge project-badge">APIs</span>
+                            <span class="badge project-badge">Express</span>
+                        </div>
+
+                        <p class="project-card__text">
+                            Este proyecto es una estación meteorológica casera conectada a sensores reales mediante
+                            Arduino, combinada con una interfaz web desarrollada con Node.js y Express
+                        </p>
+
+                        <div class="project-card__links">
+                            <a href="https://github.com/Woker2003/clima" class="project-link">&gt; Ver Código</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <h2 class="section-title">Contacto</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <ul class="contact-list">
+                    <li>GitHub: <a href="https://github.com/WokerJJ">WokerJJ</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/jhonhucker/">jhonhucker</a></li>
+                    <li>Email: jchalararamirez@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
+</html>

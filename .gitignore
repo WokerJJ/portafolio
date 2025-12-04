@@ -1,0 +1,22 @@
+# Dependencias Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds / artefactos
+dist/
+build/
+.cache/
+.temp/
+
+# Editor / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Entornos / config sensibles
+.env
+.env.*
