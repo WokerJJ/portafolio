@@ -48,16 +48,16 @@ Sitio web personal para mostrar proyectos, habilidades y experiencia.
 ## 📊 Estadísticas
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=TUUSUARIO&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TUUSUARIO&layout=compact&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wokerjj&show_icons=true&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wokerjj&layout=compact&theme=tokyonight" />
 </p>
 
 ---
 
 ## 📫 Contacto
 
-* 📧 Email: [jchalarcaramirez@gmail.com](mailto:jchalarcaramirez+portafolio@gmail.com)
-* 🌎 Portafolio: [Jhon Huoker](mailto:https://wokerjj.github.io/portafolio/)
+* 📧 Email: [jchalarcaramirez@gmail.com](jchalarcaramirez+portafolio@gmail.com)
+* 🌎 Portafolio: [Jhon Huoker](https://wokerjj.github.io/portafolio/)
 
 ---
 
