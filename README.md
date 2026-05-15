@@ -48,8 +48,8 @@ Sitio web personal para mostrar proyectos, habilidades y experiencia.
 ## 📊 Estadísticas
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wokerjj&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wokerjj&layout=compact&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Wokerjj&show_icons=true&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wokerjj&layout=compact&theme=tokyonight" />
 </p>
 
 ---
