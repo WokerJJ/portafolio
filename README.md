@@ -45,15 +45,6 @@ Sitio web personal para mostrar proyectos, habilidades y experiencia.
 
 ---
 
-## 📊 Estadísticas
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Wokerjj&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wokerjj&layout=compact&theme=tokyonight" />
-</p>
-
----
-
 ## 📫 Contacto
 
 * 📧 Email: [jchalarcaramirez@gmail.com](jchalarcaramirez+portafolio@gmail.com)
